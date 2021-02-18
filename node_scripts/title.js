@@ -4,7 +4,7 @@
  */
 
  const title = function(array) {
-     
+
  }
 
  const testItems = [
@@ -23,7 +23,7 @@
 // Constant is an invariable variable.
 // "Results" will map testItems to const title
 const results = testItems.map(title)
-// 
+//
  for (let i = 0; i < 4; i++) {
     if (results[i] !== expect[i]) {
         console.log('fail')
@@ -37,5 +37,5 @@ const results = testItems.map(title)
   * -loop over each object in the array (only need to check first letter of each word, actually)
   *     -check first character && first character after a space in each string
   *     -Make alphabetical characters uppercase
-  * 
+  *
   */
