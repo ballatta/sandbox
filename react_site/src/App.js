@@ -1,10 +1,13 @@
-import './App.css';
+import "./App.css";
 
-import { ArrayMap } from './array_map/array_map'
+import ApiPractice from "./apiPractice/apiPractice";
+import BondToDo from "./bondToDo/bondToDo";
 
 function App() {
   return (
-    <div className="App"><ArrayMap /></div>
+    <div className="App">
+      <BondToDo />
+    </div>
   );
 }
 
